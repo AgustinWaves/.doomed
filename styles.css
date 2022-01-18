@@ -237,6 +237,15 @@ img {
         /*justify-content: center;*/
     }
 
+    .contact-container {
+        height: 100vh;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 1fr;
+        row-gap: 0;
+        column-gap: 0;
+        align-items: center;
+    }
+
     .home-img {
         order: 1;
         width: 723px;
@@ -260,6 +269,11 @@ img {
         column-gap: 4.5rem;
     }
 
+    .contact-container {
+        justify-content: initial;
+        column-gap: 4.5rem;
+    }
+
     .home-img {
         width: 604px;
         height: 466px;
@@ -269,3 +283,118 @@ img {
         width: 604px;
     }
 }
+
+footer {
+    
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+footer .f-content h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.social {  
+    list-style: none;
+    align-items: center;
+}
+
+.social svg {
+    fill: #999999;
+    transition: color .4s ease;
+}
+
+.social svg:hover {
+    fill: #e61985;
+}
+
+
+.f-bottom {
+    padding: 25px;
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #fff;
+}
+
+.f-bottom span {
+    opacity: .7;
+    font-weight: 900;
+}
+
+/*Contact*/
+.contact-container{
+height: 50vh;
+grid-template-columns: repeat(2, auto);
+grid-template-rows: 1fr;
+row-gap: 0;
+column-gap: 0;
+align-items: center;
+justify-content: center;
+}
+
+#form {
+    position: relative;
+    width: 30rem;
+    margin: 0 auto 20px auto;
+    padding: 1%;
+  }
+
+input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #e61985;
+    
+    border: solid 2px #fff;
+    border-bottom: none;
+}
+
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    
+    background: transparent;
+    outline: none;
+    
+    color: #e61985;
+    font-family: var(--body-font);
+    font-size: 0.875em;
+    
+    border: solid 2px #fff;
+}
+
+#submit {
+    width: 470px;
+    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: var(--body-font);
+    font-size: 0.875em;
+    color: #e61985;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 2px #fff;
+    border-top: none;
+  }
+
+  
