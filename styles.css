@@ -330,7 +330,8 @@ footer .f-content h3{
     font-weight: 900;
 }
 
-/*Contact*/
+/*Contact and form*/
+
 .contact-container{
 height: 50vh;
 grid-template-columns: repeat(2, auto);
@@ -397,4 +398,17 @@ textarea {
     border-top: none;
   }
 
-  
+  @media screen and (max-width:480px) {
+      #form {
+          width: 95%;
+      }
+      input {
+          width: 100%;
+      }
+      textarea {
+          max-width: 100%;
+      }
+      #submit {
+          width: 100%;
+      }
+  }
