@@ -104,6 +104,7 @@ img {
 .nav-logo {
     color: #e61985;
     font-weight: 700;
+    margin-left: 30%;
 }
 
 .close, .links, .toggle {
@@ -165,6 +166,11 @@ img {
 
 .home-data {
     color: white;
+    margin-left: 3%;
+}
+
+.home-data2 {
+    color: #fff;
 }
 
 .title {
