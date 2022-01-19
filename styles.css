@@ -411,4 +411,8 @@ textarea {
       #submit {
           width: 100%;
       }
+
+      .home-container{
+          margin-bottom: 20%;
+      }
   }
